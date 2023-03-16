@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Michroma&display=swap');
+body{
+    
+    margin: 0%;
+}
+    
+
+ .nav1 a{
+
+  color: whitesmoke; 
+  font-family: 'Michroma', sans-serif;
+  font-size: small; 
+}
+
+.nav1 a:hover{
+
+    color:red ;
+}
+
+@media(max-width:600px) {
+
+    .caro1 h1 {
+        font-size: small;
+    }
+
+    .caro1 p {
+        font-size: small;
+    }
+
+  
+
+
+
+
+
