@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Holtwood+One+SC&family=Michroma&display=swap');
 body{
     
     margin: 0%;
@@ -27,6 +26,93 @@ body{
     .caro1 p {
         font-size: small;
     }
+}
+
+.ca1{
+    display: flex ;
+     justify-content: space-evenly;
+      color: rgb(196, 209, 209);
+      font-family: 'Audiowide', cursive;
+}
+
+.car1{
+
+    transition: 1s ease-in;
+}
+
+.carimg:hover{
+    
+    transform: scale(1.1) ;
+    
+}
+.ca1 button{
+
+    background-color: black;
+    color: rgb(196, 209, 209); ;
+    border-color: rgb(255, 255, 0);
+
+   
+}
+
+.ca1 button:hover{
+
+    
+    color: blue;
+}
+
+.imgcaro{
+    height: 750px;
+}
+
+.caro1 button{
+    color: white; 
+    border-color: white ;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.footer{
+    height: 400px;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer h6{
+    font-family: 'Michroma', sans-serif;
+    color: whitesmoke;
+    font-size: small;
+}
+
+.footer a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.footer a:hover{
+    color: rgb(220, 32, 32);
+    text-decoration: none;
+}
+
+.footer a:active{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer i:hover{
+    color: red;
+}
+
+
+  
+
 
   
 
