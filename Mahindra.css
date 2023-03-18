@@ -1,21 +1,21 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Climate+Crisis&family=Holtwood+One+SC&family=Major+Mono+Display&family=Michroma&family=Syncopate&display=swap');
-body{
-    
+
+body {
+
     margin: 0%;
 }
-    
 
- .nav1 a{
 
-  color: #e1e2e2; 
-  font-family: 'Michroma', sans-serif;
-  font-size: small; 
+.nav1 a {
+
+    color: #e1e2e2;
+    font-family: 'Michroma', sans-serif;
+    font-size: small;
 }
 
-.nav1 a:hover{
+.nav1 a:hover {
 
-    color:red ;
+    color: red;
 }
 
 @media(max-width:600px) {
@@ -27,127 +27,124 @@ body{
     .caro1 p {
         font-size: small;
     }
-    .tag h1{
+
+    .tag h1 {
         font-size: small;
     }
 }
 
-.ca1{
-    display: flex ;
-     justify-content: space-evenly;
-      color: #e1e2e2;
-      font-family: 'Audiowide', cursive;
+.ca1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: #e1e2e2;
+    font-family: 'Audiowide', cursive;
 }
 
 
 
-.carimg:hover{
-    
-    transform: scale(1.1) ;
-    
-}
-.ca1 button{
+.carimg:hover {
 
-    background-color:#d26b1c;
-    color: #e1e2e2 ;
-    
+    transform: scale(1.1);
 
-   
 }
 
-.ca1 button:hover{
+.ca1 button {
 
-    
+    background-color: #d26b1c;
+    color: #e1e2e2;
+
+
+
+}
+
+.ca1 button:hover {
+
+
     color: #d26b1c;
 }
 
-.imgcaro{
+.imgcaro {
     height: 750px;
 }
 
-.caro1 button{
-    color: white; 
-    border-color: white ;
+.caro1 button {
+    color: white;
+    border-color: white;
     font-size: large;
     margin-top: 10px;
 }
 
-.footer{
+.footer {
     height: 300px;
-    box-shadow: 0 4px 8px 0  #a4988f, 0 6px 20px 0  #867a72;
-background-image: url('./images/Tire-PNG-Photo.png');
-background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 #a4988f, 0 6px 20px 0 #867a72;
+    background-image: url('./images/Tire-PNG-Photo.png');
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
-.footer h6{
+.footer h6 {
     font-family: 'Michroma', sans-serif;
     color: whitesmoke;
     font-size: small;
 }
 
-.footer a:link{
+.footer a:link {
     color: whitesmoke;
     text-decoration: none;
 }
 
-.footer a:visited{
+.footer a:visited {
     color: whitesmoke;
     text-decoration: none;
 
 }
 
-.footer a:hover{
+.footer a:hover {
     color: rgb(220, 32, 32);
     text-decoration: none;
 }
 
-.footer a:active{
+.footer a:active {
     color: whitesmoke;
     text-decoration: none;
 }
 
-.footer i:hover{
+.footer i:hover {
     color: red;
 }
 
 
-.service a:link{
+.service a:link {
     text-decoration: none;
-    color:  #e1e2e2;
+    color: #e1e2e2;
 }
 
-.service a:visited{
+.service a:visited {
     text-decoration: none;
-    color:  #e1e2e2;
+    color: #e1e2e2;
 }
 
-.service a:hover{
+.service a:hover {
     text-decoration: none;
-    color:  #d26b1c;
+    color: #d26b1c;
 
 
 }
 
-.service a:active{
+.service a:active {
     text-decoration: none;
     color: grey;
 
 }
 
-.tag{
+.tag {
     font-family: 'Climate Crisis', cursive;
     color: #e1e2e2;
     font-size: x-large;
 }
 
-.tag span{
+.tag span {
     color: #d26b1c;
 }
-
-
-
-
-
