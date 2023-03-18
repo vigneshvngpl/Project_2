@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Climate+Crisis&family=Holtwood+One+SC&family=Michroma&family=Syncopate&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Climate+Crisis&family=Holtwood+One+SC&family=Major+Mono+Display&family=Michroma&family=Syncopate&display=swap');
 body{
     
     margin: 0%;
@@ -8,7 +8,7 @@ body{
 
  .nav1 a{
 
-  color: whitesmoke; 
+  color: #e1e2e2; 
   font-family: 'Michroma', sans-serif;
   font-size: small; 
 }
@@ -27,19 +27,19 @@ body{
     .caro1 p {
         font-size: small;
     }
+    .tag h1{
+        font-size: small;
+    }
 }
 
 .ca1{
     display: flex ;
      justify-content: space-evenly;
-      color: rgb(196, 209, 209);
+      color: #e1e2e2;
       font-family: 'Audiowide', cursive;
 }
 
-.car1{
 
-    transition: 1s ease-in;
-}
 
 .carimg:hover{
     
@@ -48,9 +48,9 @@ body{
 }
 .ca1 button{
 
-    background-color: black;
-    color: rgb(196, 209, 209); ;
-    border-color: rgb(255, 255, 0);
+    background-color:#d26b1c;
+    color: #e1e2e2 ;
+    
 
    
 }
@@ -58,7 +58,7 @@ body{
 .ca1 button:hover{
 
     
-    color: blue;
+    color: #d26b1c;
 }
 
 .imgcaro{
@@ -73,8 +73,10 @@ body{
 }
 
 .footer{
-    height: 400px;
-
+    height: 300px;
+    box-shadow: 0 4px 8px 0  #a4988f, 0 6px 20px 0  #867a72;
+background-image: url('./images/Tire-PNG-Photo.png');
+background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
     
@@ -114,17 +116,17 @@ body{
 
 .service a:link{
     text-decoration: none;
-    color: grey;
+    color:  #e1e2e2;
 }
 
 .service a:visited{
     text-decoration: none;
-    color: grey;
+    color:  #e1e2e2;
 }
 
 .service a:hover{
     text-decoration: none;
-    color: orangered;
+    color:  #d26b1c;
 
 
 }
@@ -137,23 +139,15 @@ body{
 
 .tag{
     font-family: 'Climate Crisis', cursive;
-    color: aliceblue;
+    color: #e1e2e2;
+    font-size: x-large;
 }
 
-.animh{
-    animation: anim 1s ease-in 1s infinite;
+.tag span{
+    color: #d26b1c;
 }
 
-@keyframes anim{
 
-    0%{
-        color: white;
-    }
-    50%{
-        color: rgb(216, 216, 35);
-    }
-    100%{
-        color: white;
-    }
-}
+
+
 
