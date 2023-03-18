@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Holtwood+One+SC&family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Climate+Crisis&family=Holtwood+One+SC&family=Michroma&family=Syncopate&display=swap');
+
 body{
     
     margin: 0%;
@@ -111,12 +112,48 @@ body{
 }
 
 
-  
+.service a:link{
+    text-decoration: none;
+    color: grey;
+}
+
+.service a:visited{
+    text-decoration: none;
+    color: grey;
+}
+
+.service a:hover{
+    text-decoration: none;
+    color: orangered;
 
 
-  
+}
 
+.service a:active{
+    text-decoration: none;
+    color: grey;
 
+}
 
+.tag{
+    font-family: 'Climate Crisis', cursive;
+    color: aliceblue;
+}
 
+.animh{
+    animation: anim 1s ease-in 1s infinite;
+}
+
+@keyframes anim{
+
+    0%{
+        color: white;
+    }
+    50%{
+        color: rgb(216, 216, 35);
+    }
+    100%{
+        color: white;
+    }
+}
 
