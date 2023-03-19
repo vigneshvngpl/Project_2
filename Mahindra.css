@@ -75,12 +75,13 @@ body {
 }
 
 .footer {
-    height: 300px;
-    box-shadow: 0 4px 8px 0 #a4988f, 0 6px 20px 0 #867a72;
+    /* height: 300px; */
+    /* box-shadow: 0 4px 8px 0 #a4988f, 0 6px 20px 0 #867a72; */
     background-image: url('./images/Tire-PNG-Photo.png');
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(39, 43, 46);
 
 }
 
